@@ -1,0 +1,15 @@
+
+server:
+  port: 1111
+
+spring:
+  activemq:
+    broker-url: tcp://59.110.21.206:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true      # false = queue    true =  topic
+
+#  \u81EA\u5B9A\u4E49\u961F\u5217\u540D\u79F0
+mytopic: boot-activemq-topic
+
